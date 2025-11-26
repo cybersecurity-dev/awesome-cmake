@@ -1,10 +1,13 @@
-<p align="center">
-    <a href="https://en.wikipedia.org/wiki/CMake">
-      <img width="15%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/CMake_Logo.svg" />
-    </a>
-</p>
+<div align="center">
+    <p align="center">
+        <a href="https://en.wikipedia.org/wiki/CMake">
+          <img width="10%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/CMake_Logo.svg" />
+        </a>
+    </p>
 
 # Awesome [CMake](https://cmake.org/) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+</div>
+
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
 [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)]()
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
