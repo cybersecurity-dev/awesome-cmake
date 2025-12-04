@@ -5,7 +5,7 @@
         </a>
     </p>
 
-# Awesome [CMake](https://cmake.org/) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# **`Awesome`** [CMake](https://cmake.org/) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
