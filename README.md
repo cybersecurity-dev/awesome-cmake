@@ -28,6 +28,21 @@
 - [Contributors](#contributors)
 
 
+## Using CMake
+
+```
+HelloWorld
+└── src
+    ├── CMakeLists.txt
+    ├── main.cpp
+    ├── libmath_util.cpp
+    └── libmath_util.h
+```
+
+```bash
+cd HelloWorld && mkdir build && cd build && cmake .. && make
+```
+
 ##
 
 ### My Other Awesome Lists
