@@ -40,8 +40,24 @@ HelloWorld
 ```
 
 ```bash
-cd HelloWorld && mkdir build && cd build && cmake .. && make
+cd HelloWorld && mkdir build && cd build && cmake ../src && make
 ```
+
+```
+HelloWorld
+├── build
+│   ├── a.out
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles/
+│   ├── Makefile
+│   └── cmake_install.cmake
+└── src
+    ├── CMakeLists.txt
+    ├── main.cpp
+    ├── libmath_util.cpp
+    └── libmath_util.h
+```
+
 
 ##
 
