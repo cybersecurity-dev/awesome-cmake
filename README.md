@@ -28,36 +28,43 @@
 - [Contributors](#contributors)
 
 
-## Using CMake
+## Using CMake (`HelloWorld Project`)
 
 ```
 HelloWorld
-└── src
-    ├── CMakeLists.txt
-    ├── main.cpp
-    ├── libmath_util.cpp
-    └── libmath_util.h
+├── include
+│   └── libmath_util.hpp
+├── src
+│    ├── main.cpp
+│    └── libmath_util.cpp
+└── CMakeLists.txt
 ```
 
 ```bash
-cd HelloWorld && mkdir build && cd build && cmake ../src && make
+cd HelloWorld && \
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && \
+cmake --build build --config Release
 ```
 
 ```
 HelloWorld
 ├── build
-│   ├── a.out
+│   ├── cmake_demo
 │   ├── CMakeCache.txt
 │   ├── CMakeFiles/
 │   ├── Makefile
 │   └── cmake_install.cmake
-└── src
-    ├── CMakeLists.txt
-    ├── main.cpp
-    ├── libmath_util.cpp
-    └── libmath_util.h
+├── include
+│   └── libmath_util.hpp
+├── src
+│    ├── main.cpp
+│    └── libmath_util.cpp
+└── CMakeLists.txt
 ```
 
+```bash
+./build/cmake_demo
+```
 
 ##
 
