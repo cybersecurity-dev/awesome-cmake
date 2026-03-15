@@ -23,10 +23,18 @@
 </p>
 
 ## 📖 Contents
+- [Getting Started with CMake](#getting-started-with-cmake)
+- [Using CMake (_HelloWorld Project_)](#using-cmake-helloworld-project)
 - [My Other Awesome Lists](#my-other-awesome-lists)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 
+## Getting Started with [CMake](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+
+* Building an Executable
+* Building a Library
+* Linking Together Libraries and Executables
+* Subdirectories
 
 ## Using CMake (`HelloWorld Project`)
 
@@ -65,6 +73,8 @@ HelloWorld
 ```bash
 ./build/cmake_demo
 ```
+
+
 
 ##
 
